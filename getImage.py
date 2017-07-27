@@ -15,7 +15,7 @@ from lxml import etree
 import requests
 
 
-response = requests.get('http://www.mibangfantuan.com/')
+response = requests.get('http://www.mibangfantuan.com/index.php?m=content&c=index&a=lists&catid=9')
 
 html = etree.HTML(response.text)
 
