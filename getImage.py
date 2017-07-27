@@ -15,11 +15,11 @@ from lxml import etree
 import requests
 
 
-response = requests.get('http://www.mibangfantuan.com/index.php?m=content&c=index&a=lists&catid=9')
+response = requests.get('http://www.jbshaobing.com/')
 
 html = etree.HTML(response.text)
 
-urllist = html.xpath('//img/@src')
+urllist = html.xpath('//img/@tppabs')
 
 for jName in urllist:
 	print jName

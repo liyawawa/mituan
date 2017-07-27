@@ -9,14 +9,14 @@ import os
 
 import requests
 
-response = requests.get('http://www.mibangfantuan.com/index.php?m=content&c=index&a=lists&catid=10')
+response = requests.get('http://www.jbshaobing.com/')
 
 text = response.text
 print response.text
 
 print os.getcwd()
 
-path = os.getcwd()+"\html\page.html"
+path = os.getcwd()+"\html\shaobing.html"
 
 f = open(path,'w')
 f.write(text.encode('utf-8'))
