@@ -8,7 +8,7 @@
 from lxml import html, etree
 import requests
 
-response = requests.get('http://www.mibangfantuan.com/')
+response = requests.get('http://www.mibangfantuan.com/baidu/')
 
 html = etree.HTML(response.text)
 
