@@ -18,9 +18,9 @@ a {text-decoration:none;}
 
 .b_footer{width:100%; height:55px; position:fixed; left:0; bottom:0; z-index:9999;}
 .b_footer a{display:block; float:left;height:55px; text-indent:-9999px;}
-.b_footer .phone{width:40%; background:url(../image/phone.png) no-repeat center #00D96D; background-size:contain;}
-.b_footer .talk{width:40%; background:url(../image/talk.gif) no-repeat center #FF4D4D; background-size:contain;}
-.b_footer .home{width:20%; background:url(../image/home.png) no-repeat center #2E3642; background-size:contain;}
+.b_footer .phone{width:40%; background:url(../../image/phone.png) no-repeat center #00D96D; background-size:contain;}
+.b_footer .talk{width:40%; background:url(../../image/talk.gif) no-repeat center #FF4D4D; background-size:contain;}
+.b_footer .home{width:20%; background:url(../../image/home.png) no-repeat center #2E3642; background-size:contain;}
 
 
 .sbj1 {background:#CFE030; margin:0px auto; text-align:center;}
