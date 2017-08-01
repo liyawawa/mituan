@@ -16,7 +16,7 @@ print response.text
 
 print os.getcwd()
 
-path = os.getcwd()+"\html\lianxi.html"
+path = os.getcwd()+"\templates\lianxi.templates"
 
 f = open(path,'w')
 f.write(text.encode('utf-8'))
