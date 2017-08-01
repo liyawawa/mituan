@@ -31,7 +31,7 @@ a:focus { outline: none; }
 .center { width: 1000px; margin: 0 auto; }
 .center:after { display: block; content: ''; clear: both; }
 
-.header { height: 127px; background: url(../../../image/bg_header.jpg) no-repeat center top; }
+.header { height: 127px; background: url(../../image/bg_header.jpg) no-repeat center top; }
 .header .center { height: 127px; position: relative; }
 .header .logo { padding-top: 14px; }
 .header .nav { width: 460px; margin: 26px 0 0 120px; }
@@ -48,17 +48,17 @@ a:focus { outline: none; }
 .content .s01 .news { height: 280px; position: absolute; left: 0px; bottom: 0px; }
 .content .s01 .news .redio { width: 464px; }
 .content .s01 .news .news_lists { width: 470px; height: 280px; margin: 0 20px 0 40px; position: relative; }
-.content .s01 .news .news_lists .recommend a { display: block; height: 90px; padding: 0 40px 0 100px; background: url(../../../image/num_01.png) no-repeat left top; color: #719d72; font-family: "Microsoft YaHei"; line-height: 20px; }
+.content .s01 .news .news_lists .recommend a { display: block; height: 90px; padding: 0 40px 0 100px; background: url(../../image/num_01.png) no-repeat left top; color: #719d72; font-family: "Microsoft YaHei"; line-height: 20px; }
 .content .s01 .news .news_lists .recommend a span.title { display: block; font-size: 16px; margin-bottom: 10px; }
 .content .s01 .news .news_lists .recommend a span.introduction { display: block; font-size: 14px; }
-.content .s01 .news .news_lists .lists li { height: 32px; line-height: 32px; padding-left: 20px; background: url(../../../image/point.png) no-repeat 5px 14px; }
+.content .s01 .news .news_lists .lists li { height: 32px; line-height: 32px; padding-left: 20px; background: url(../../image/point.png) no-repeat 5px 14px; }
 .content .s01 .news .news_lists .lists li a { color: #494949; font-size: 14px; font-family: "Microsoft YaHei"; }
 .content .s01 .news .news_lists .lists li a:hover { text-decoration: underline; color: #f60; }
-.content .s01 .news .news_lists .more_news { display: block; width: 130px; height: 142px; background: url(../../../image/more_news.png) no-repeat center center; position: absolute; right: 0; bottom: 0; }
-.content .s01 .news .news_lists .more_news:hover { background: url(../../../image/more_news_h.png) no-repeat center center; }
-.content .s02 { height: 1700px; background: #fff url(../../../image/bg_content_02.jpg) no-repeat center top; }
+.content .s01 .news .news_lists .more_news { display: block; width: 130px; height: 142px; background: url(../../image/more_news.png) no-repeat center center; position: absolute; right: 0; bottom: 0; }
+.content .s01 .news .news_lists .more_news:hover { background: url(../../image/more_news_h.png) no-repeat center center; }
+.content .s02 { height: 1700px; background: #fff url(../../image/bg_content_02.jpg) no-repeat center top; }
 .content .s02 .center { padding-top: 30px; }
-.content .s02 .shop_show { height: 331px; background: url(../../../image/bg_show.png) no-repeat center top; }
+.content .s02 .shop_show { height: 331px; background: url(../../image/bg_show.png) no-repeat center top; }
 .content .s02 .shop_show .title { padding: 60px 0 0 40px; }
 .content .s02 .shop_show .lists { padding: 35px 15px 0 0; }
 .content .s02 .shop_show .lists a { display: block; width: 260px; height: 238px; float: left; margin-right: 22px; font-family: "Microsoft YaHei"; }
@@ -66,15 +66,15 @@ a:focus { outline: none; }
 .content .s02 .shop_show .lists a img { -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 .content .s02 .shop_show .lists a:hover { color: #f60; }
 .content .s02 .shop_show .lists a:hover img { -moz-transform: scale(1.1, 1.1); -ms-transform: scale(1.1, 1.1); -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); }
-.content .s02 .products_show { width: 980px; height: 230px; padding: 40px 22px 20px; position: absolute; bottom: 30px; left: -12px; background: url(../../../image/bg_products.png) no-repeat center top; }
+.content .s02 .products_show { width: 980px; height: 230px; padding: 40px 22px 20px; position: absolute; bottom: 30px; left: -12px; background: url(../../image/bg_products.png) no-repeat center top; }
 .content .s02 .products_show a { display: block; width: 309px; height: 230px; float: left; margin: 0 8px 0 9px; color: #5b5b5b; font-size: 14px; font-family: "Microsoft YaHei"; }
 .content .s02 .products_show a p { line-height: 45px; text-align: center; }
 .content .s02 .products_show a span { display: block; width: 309px; height: 185px; overflow: hidden; }
 .content .s02 .products_show a img { -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 .content .s02 .products_show a:hover { color: #f60; }
 .content .s02 .products_show a:hover img { -moz-transform: scale(1.1, 1.1); -ms-transform: scale(1.1, 1.1); -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); }
-.content .s03 { height: 665px; background: #fff url(../../../image/bg_content_03.jpg) no-repeat center top; }
-.content .s03 .center { background: #fff url(../../../image/bg_content_03.jpg) no-repeat center top; }
+.content .s03 { height: 665px; background: #fff url(../../image/bg_content_03.jpg) no-repeat center top; }
+.content .s03 .center { background: #fff url(../../image/bg_content_03.jpg) no-repeat center top; }
 .content .s03 .title { text-align: center; padding-top: 100px; margin-bottom: 50px; }
 .content .s03 .lists:after { display: block; content: ""; clear: both; }
 .content .s03 .lists a { display: block; width: 299px; height: 300px; float: left; margin-left: 25px; color: #5b5b5b; font-size: 14px; font-family: "Microsoft YaHei"; }
@@ -87,7 +87,7 @@ a:focus { outline: none; }
 .content .s03 .more_customer { font-size: 11px; font-family: "Microsoft YaHei"; color: #4a8359; position: absolute; bottom: 20px; left: 453px; line-height: 14px; }
 .content .s03 .more_customer span { font-family: Arial; font-size: 14px; font-weight: bold; margin-left: 3px; }
 .content .s03 .more_customer:hover { color: #f60; }
-.content .s04 { height: 660px; padding-top: 35px; background: #fff url(../../../image/bg_content_04.jpg) no-repeat center bottom; }
+.content .s04 { height: 660px; padding-top: 35px; background: #fff url(../../image/bg_content_04.jpg) no-repeat center bottom; }
 .content .s04 .company { position: relative; width: 413px; }
 .content .s04 .company .pic { margin-bottom: 20px; }
 .content .s04 .company p { color: #444; font-size: 14px; font-family: "Microsoft YaHei"; line-height: 180%; }

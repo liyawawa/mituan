@@ -5,23 +5,46 @@
 # @Site    : 
 # @File    : hello.py
 
+from flask import render_template
 
 ## 欢迎页
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/')
-def hello_world():
-    return 'Hello World!'
+@app.route('/index/')
+def index():
+    return render_template('index.html')
 
 
-@app.route('/projects/')
-def projects():
-    return 'The project page'
+@app.route('/center/')
+def center():
+    return render_template('center.html')
 
-@app.route('/about')
-def about():
-    return 'The about page'
+
+@app.route('/lianxi/')
+def lianxi():
+    return render_template('lianxi.html')
+
+
+@app.route('/product/')
+def product():
+    return render_template('product.html')
+
+
+@app.route('/shaobing/')
+def shaobing():
+    return render_template('shaobing.html')
+
+
+@app.route('/shop/')
+def shop():
+    return render_template('shop.html')
+
+
+@app.route('/zixun/')
+def zixun():
+    return render_template('zixun.html')
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
